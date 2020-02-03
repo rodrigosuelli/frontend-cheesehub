@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Encomendas - Cheese Hub</title>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="https://i.imgur.com/GUaUIxY.png">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/folha de estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="lol"></div>
+        <nav class="navbar navbar-expand-md py-3 navbar-custom navbar fixed-top" >
+            <div class="container">
+                <a class="navbar-brand wow fadeInDown animated" href="index.html">
+                    <img src="img/cheesehub3.gif" alt="cheese hub logo" width="150" height="40" class="d-inline-block align-top"/>
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link wow fadeInDown animated"  href="index.html">Home</a>
+                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle wow fadeInDown animated" data-wow-delay="0.2s" href="#" id="navbardrop" data-toggle="dropdown">
+                                Produtos
+                            </a>
+                            <div class="dropdown-menu wow fadeInDown animated">
+                                <a class="dropdown-item wow fadeInDown animated" data-wow-delay="0.2s" href="mussarela.html">Mozzarella</a>
+                                <a class="dropdown-item wow fadeInDown animated" data-wow-delay="0.4s" href="gorgonzola.html">Gorgonzola</a>
+                                <a class="dropdown-item wow fadeInDown animated" data-wow-delay="0.6s" href="prato.html">Prato</a>
+                                <a class="dropdown-item wow fadeInDown animated" data-wow-delay="0.8s" href="parmesao.html">Parmesão</a>
+                                <a class="dropdown-item wow fadeInDown animated" data-wow-delay="1s" href="ricota.html">Ricota</a>
+                            </div>
+                        <li class="nav-item active">
+                            <a class="nav-link wow fadeInDown animated" data-wow-delay="0.4s" href="encomendas.html">Encomendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wow fadeInDown animated" data-wow-delay="0.6s" href="faleconosco.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+        <section class="py-3">
+            <h1 class="text-center wow fadeInUp animated">Tabela de Preços:</h1>
+            <h4 class="wow fadeInUp animated" data-wow-delay="0.1s">Segue abaixo a tabela de preço para os nossos produtos:</h4>            
+            <table class="table wow fadeInUp animated" data-wow-delay="0.2s">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Peso</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mussarela</td>
+                        <td>400g</td>
+                        <td>R$15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Prato</td>
+                        <td>400g</td>
+                        <td>R$14,00</td>
+                    </tr>
+                    <tr>
+                        <td>Ricota</td>
+                        <td>400g</td>
+                        <td>R$10,00</td>
+                    </tr>
+                    <tr>
+                        <td>Gorgonzolla</td>
+                        <td>400g</td>
+                        <td>R$16,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+        </section>
+            <h4 class="wow fadeInUp animated" data-wow-delay="0.3s">Faça seu pedido preenchendo o formulário abaixo:</h4>
+            <section class="py-3">
+                
+            
+            <form>
+                        <div class="form-row">
+    <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
+                <label for="#">Tipo de Queijo</label>
+      <select id="inputEstado" class="form-control" >
+        <option>Parmesão</option>
+        <option>Ricota</option>
+        <option>Mozzarella</option>
+        <option>Prato</option>
+        <option>Gorgonzola</option>
+      </select>
+    </div>
+                <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="0.5s">
+                    <label>Quantidade:</label>
+                    <input type="number" name="quantity"
+ min="0" max="30" value="30" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="0.6s">
+                    <label>CEP:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-6 wow fadeInUp animated" data-wow-delay="0.7s">
+                    <label>Cidade:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-6 wow fadeInUp animated" data-wow-delay="0.8s">
+                    <label>Número:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="0.9s">
+                    <label>Complemento:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="1s">
+                    <label>Telefone Residencial:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                <div class="form-group col-md-4 wow fadeInUp animated" data-wow-delay="1.1s">
+                             
+                    <label>Telefone Celular:</label>
+                    <input type="text" class="form-control" required="required">
+                </div>
+                            <div class="col-md-12 wow fadeInUp animated">
+                                <input  type="submit" class="btn btn-dark btn-send wow rubberBand animated"  value="Enviar">
+                            </div>
+                
+            
+        </div>
+                </form>
+        
+        
+        
+        </section>
+    </div>
+        <!-- Footer -->
+        <footer class="py-5">
+              <div class="container">
+                <p class="m-0 text-center text-white wow fadeInUp">Copyright &copy; Cheese Hub 2018</p>
+              </div>
+            </footer>
+            <script src="js/wow.min.js"></script>
+            <script>
+              new WOW().init();
+              </script>
+          </body>
+        </html>

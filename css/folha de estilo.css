@@ -1,0 +1,66 @@
+/*espaço vazio atras do nav*/
+.lol{
+    background-color: #212529;
+    width: auto;
+    height: 82px;
+}
+footer{
+    background-color: #212529;
+    font-weight: lighter;
+    font-size: 18px;
+}
+h1, h2, h3, h4{
+    font-weight: bold; 
+}
+/*carousel*/
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*NAV*/
+.navbar-custom {
+  background-color:#1d2124d1;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff9c;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text, .navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link, .dropdown-item.active, .dropdown-item:active, .sr-only, .dropdown-item:hover {
+    color: #ffffff!important;
+    background-color: transparent;
+}
+.navbar-custom .dropdown-menu {
+    background-color: #1d2124d1;
+    
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff9c;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: #ffffff9c;
+}
+.custom-toggler .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*TRANSIÇÃO CAROUSEL*/
+.carousel-fade .carousel-item {
+ transition-duration: 1s;
+}
+/* icone carousel*/
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}

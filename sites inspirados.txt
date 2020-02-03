@@ -1,0 +1,5 @@
+https://startbootstrap.com/template-overviews/full-slider/
+https://daneden.github.io/animate.css/
+https://wowjs.uk/
+https://getbootstrap.com.br/docs/4.1/components/forms/?#valida%C3%A7%C3%A3o
+https://bootstrapious.com/tutorial/contact-form/
